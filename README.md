@@ -15,7 +15,8 @@ website](https://jazlab.github.io/medicine/).
 This repository contains code to generate all the main text results in the
 MEDiCINe paper. Each notebook in the [./figures/](./figures) directory produces
 one of these results. All data needed to generate these is available for
-download at [https://figshare.com/projects/MEDiCINe/225027](https://figshare.com/projects/MEDiCINe/225027).
+download at
+[https://osf.io/acu8j/files/osfstorage](https://osf.io/acu8j/files/osfstorage).
 You can reproduce the MEDiCINe paper results by taking the following steps:
 
 1. Clone this repository by navigating to your local target directory and
@@ -24,11 +25,14 @@ running `$ git clone https://github.com/jazlab/medicine_paper.git`
 1. Install the dependencies with `$ pip install -r requirements.txt`. It is
    recommended to use a virtual environment with python version 3.10 or later.
 
-2. Visit [https://figshare.com/projects/MEDiCINe/225027](https://figshare.com/projects/MEDiCINe/225027).
-You should see one dataset there with an 8Gb file `data.zip`. Download this file. This may take several minutes. Once downloaded, un-zip `data.zip`. The contents should
-be directories `nhp_datasets`, `sim_motion_estimation`, `simulated_datasets`,
-`spike_sorting`, and `spike_sorting_ground_truth`. Move these contents to the
-[./cache/](./cache) directory in your cloned repo.
+2. Visit
+[https://osf.io/acu8j/files/osfstorage](https://osf.io/acu8j/files/osfstorage).
+You should see five zip files. Download all of these. This may take several
+minutes, and we recommend using a high-speed ethernet connection. Once
+downloaded, un-zip them all and move them to the [./cache/](./cache) directory
+in your cloned repo. At this point, the [./cache/](./cache) directory in your
+cloned repo should contain directories `nhp_datasets`, `sim_motion_estimation`,
+`simulated_datasets`, `spike_sorting`, and `spike_sorting_ground_truth`.
 
 1. Run each of the Jupyter notebooks in [./figures/](./figures).
 
