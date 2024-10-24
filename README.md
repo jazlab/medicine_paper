@@ -6,8 +6,8 @@ following paper: MEDICINE
 ## Reproducing MEDiCINe Paper Figures
 
 This repository contains code to generate all the main text results in the
-MEDiCINe paper. Each notebook in `./figures/` produces one of these results. All
-data needed to generate these is available for download at
+MEDiCINe paper. Each notebook in the [figures](./figures) directory produces one
+of these results. All data needed to generate these is available for download at
 [https://osf.io/acu8j/files/osfstorage#](https://osf.io/acu8j/files/osfstorage#).
 You can reproduce the MEDiCINe paper results by taking the following steps:
 
@@ -26,9 +26,9 @@ environment.
 
 Third, download all the data files from
 [https://osf.io/acu8j/files/osfstorage#](https://osf.io/acu8j/files/osfstorage#),
-move them to `./cache/`, and unzip the zip files.
+move them to [cache](./cache), and unzip the zip files.
 
-Lastly, run each of the Jupyter notebooks in `./figures/`.
+Lastly, run each of the Jupyter notebooks in [figures](./figures).
 
 ## Generating Intermediate Data
 
@@ -42,16 +42,19 @@ sorting on the motion-corrected simulated datasets.
 ### Generating Simulated Datasets
 
 If you would like to generate the recordings in our simulated dataset suite,
-follow the instructions in `./simulated_data/generate_data`. Due to the
+follow the instructions in
+[simulated_data/generate_data](./simulated_data/generate_data). Due to the
 prohibitively large total size of the simulated datasets (~23Tb), we have not
 open-sourced these raw datasets.
 
 ### Running Motion Estimation on Simulated Datasets
 
 If you would like to run motion estimation methods on our simulated datasets,
-follow the instructions in `./simulated_data/motion_estimation`.
+follow the instructions in
+[simulated_data/motion_estimation](./simulated_data/motion_estimation).
 
 ### Spike Sorting Simulated Datasets
 
 If you would like to run spike sorting on motion-corrected simulated datasets,
-follow the instructions in `./simulated_data/spike_sorting`.
+follow the instructions in
+[simulated_data/spike_sorting](./simulated_data/spike_sorting).
