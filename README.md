@@ -24,6 +24,9 @@ running `$ git clone https://github.com/jazlab/medicine_paper.git`
 
 1. Install the dependencies with `$ pip install -r requirements.txt`. It is
    recommended to use a virtual environment with python version 3.10 or later.
+   At this point, to ensure the MEDiCINe package is installed and working, you
+   can run `$ python -m medicine_demos.run_demo`, which should run without error
+   and produce several plots.
 
 2. Visit
 [https://osf.io/acu8j/files/osfstorage](https://osf.io/acu8j/files/osfstorage).
