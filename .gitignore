@@ -12,3 +12,4 @@ cache/nhp_datasets
 cache/sim_motion_estimation
 cache/simulated_datasets
 cache/spike_sorting**
+cache/data.zip
