@@ -41,14 +41,16 @@ cloned repo should contain directories `nhp_datasets`, `sim_motion_estimation`,
 
 ## Generating Intermediate Data
 
-The instructions above allo you to download intermediate data formats (e.g.
-motion-estimation results) and generate results from those. If you would like to
+The instructions above allow you to download intermediate data formats (e.g.
+motion estimation results) and generate results from those. If you would like to
 generate the intermediate data formats themselves, we provide software for doing
-that for the simulated datasets. You can (i) generate the simulated datasets,
-(ii) run motion estimation on the simulated datasets, and (iii) run spike
-sorting on the motion-corrected simulated datasets.
+that for the simulated datasets. You can generate the simulated datasets, run
+motion estimation on the simulated datasets, and run spike sorting on the
+motion-corrected simulated datasets. Each of these is computationally expensive,
+so if you are only interested in reproducing the results then we recommend
+following the instructions above.
 
-### Generating Simulated Datasets
+### Generating simulated datasets
 
 If you would like to generate the recordings in our simulated dataset suite,
 follow the instructions in
@@ -56,13 +58,13 @@ follow the instructions in
 prohibitively large total size of the simulated datasets (~23Tb), we have not
 open-sourced these raw datasets.
 
-### Running Motion Estimation on Simulated Datasets
+### Running motion estimation on simulated datasets
 
 If you would like to run motion estimation methods on our simulated datasets,
 follow the instructions in
 [./simulated_data/motion_estimation/](./simulated_data/motion_estimation).
 
-### Spike Sorting Simulated Datasets
+### Spike sorting simulated datasets
 
 If you would like to run spike sorting on motion-corrected simulated datasets,
 follow the instructions in
