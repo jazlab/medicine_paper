@@ -1,7 +1,7 @@
 # MEDiCINe: Motion Estimation by Distributional Contrastive Inference for Neurophysiology
 
-This repository contains code to reproduce all main test results in the
-following paper:
+This repository contains code to reproduce all main results in the following
+paper:
 
 MEDiCINe: Motion Estimation by Distributional Contrastive Inference for
 Neurophysiology. Watters, N., Bussino, A., & Jazayeri, M. arXiv, 2024.
