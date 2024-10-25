@@ -3,7 +3,6 @@
 See ../README.md for more information and usage instructions.
 """
 
-import json
 import sys
 from pathlib import Path
 

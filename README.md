@@ -30,8 +30,8 @@ running `$ git clone https://github.com/jazlab/medicine_paper.git`
 
 2. Visit
 [https://osf.io/acu8j/files/osfstorage](https://osf.io/acu8j/files/osfstorage).
-You should see five zip files. Download all of these, which wil total ~9Gb. This
-may take several minutes, and we recommend using a high-speed ethernet
+You should see five zip files. Download all of these, which will total ~9Gb.
+This may take several minutes, and we recommend using a high-speed ethernet
 connection. Once downloaded, un-zip them all and move them to the
 [./cache/](./cache) directory in your cloned repo. At this point, the
 [./cache/](./cache) directory in your cloned repo should contain directories
