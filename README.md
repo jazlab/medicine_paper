@@ -3,8 +3,8 @@
 This repository contains code to reproduce all main results in the following
 paper:
 
-MEDiCINe: Motion Estimation by Distributional Contrastive Inference for
-Neurophysiology. Watters, N., Bussino, A., & Jazayeri, M. arXiv, 2024.
+MEDiCINe: Motion Correction for Neural Electrophysiology Recordings. Watters,
+N., Bussino, A., & Jazayeri, M. arXiv, 2024.
 
 For more information about MEDiCINe, including demos and instructions for using
 it on your own datasets, please visit the [MEDiCINe
@@ -77,11 +77,14 @@ If you use MEDiCINe or a derivative of it in your work, please cite it as
 follows:
 
 ```
-@article{watters2024,
-author = {Nick Watters and Alessio Buccino and Mehrdad Jazayeri},
-title = {MEDiCINe: Motion Estimation by DIstributional Contrastive Inference for NEurophysiology},
-url = {https://arxiv.org/},
-journal = {arXiv preprint arXiv:},
-year = {2024}
+@article {Watters2024.11.06.622160,
+	author = {Watters, Nicholas and Buccino, Alessio P and Jazayeri, Mehrdad},
+	title = {MEDiCINe: Motion Correction for Neural Electrophysiology Recordings},
+	elocation-id = {2024.11.06.622160},
+	year = {2024},
+	doi = {10.1101/2024.11.06.622160},
+	URL = {https://www.biorxiv.org/content/10.1101/2024.11.06.622160},
+	eprint = {https://www.biorxiv.org/content/10.1101/2024.11.06.622160.full.pdf},
+	journal = {bioRxiv}
 }
 ```
